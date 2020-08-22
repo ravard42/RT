@@ -22,7 +22,7 @@
 
 CC = gcc
 NAME = rt
-FLAGS = -Wall -Wextra -Werror -O2
+FLAGS = -Wall -Wextra -O2
 SRC = srcs/main.c\
 	srcs/parsing/parsing.c\
 	srcs/parsing/tools.c\

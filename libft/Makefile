@@ -1,5 +1,5 @@
 CC = gcc
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -O2
 NAME = libft.a
 SRC =	v_abs_diff.c\
 	ft_rm_whitespace.c\
