@@ -1,0 +1,14 @@
+<scene ambiante="0.15">
+	<cam ori="{0,20,-40}" axe="{0.1,-0.7,1}" up="{0,1,0}"></cam>
+	<lumiere ori="{0,1,0}" spec="1"></lumiere>
+
+	<sphere ori="{15,-12,-5}" rad="3" refl="1" spec="1" col="{250,0,50}"></sphere>
+
+	<sphere ori="{5,-12,0}" rad="3" spec="1" col="{220,220,220}"></sphere>
+	<sphere ori="{0,-12,-5}" rad="3" refl="0.5" spec="1" col="{0,50,220}"></sphere>
+	<sphere ori="{7,-4,1}" rad="3" refl="0.5" spec="1" col="{50,220,50}"></sphere>
+	<sphere ori="{13,-7.5,5}" rad="3" refl="0.5" spec="1" col="{220,50,50}"></sphere>
+	<cylindre ori="{2,0,8}" rad="3" refl="0.5" spec="1"></cylindre>
+	<plan ori="{0,-15,0}" axe="{0,1,0}" refl="0" col="{100,100,100}"></plan>
+	<plan ori="{25,0,0}" axe="{-1,0,0}" refl="0" col="{100,100,100}"></plan>
+</scene>

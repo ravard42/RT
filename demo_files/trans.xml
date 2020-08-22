@@ -1,0 +1,10 @@
+<scene ambiante="0.15">
+	<cam ori="{0,6,-30}" axe="{0,-0.2,1}" up="{0,1,0}"></cam>
+	<lumiere ori="{3,12,-20}"></lumiere>
+	<sphere col="{200,200,200}" trans="0.5"></sphere>
+	<sphere ori="{3,0,0}" col="{200,200,200}" trans="0.8"></sphere>
+	<sphere ori="{-3,0,0}" col="{200,200,200}" trans="0.2"></sphere>
+	<plan ori="{0,-1,0}" col="{240,240,15}">
+		<lim limx="{1.5,5,5}" limz="{1.5,5,5}"></lim>
+	</plan>
+</scene>

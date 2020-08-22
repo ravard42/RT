@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<scene ambiante="0.5">
+	<cam ori="{-2000,2000,-2000}" axe="{1,0,1}" up="{0,1,0}"></cam>
+	<sphere ori="{0,2000,0}" rad="1000" col="{255,255,255}">
+		<texture path="./img_png/soleil.png"></texture>
+	</sphere>
+	<sphere ori="{3000,2000,0}" rad="30" col="{255,255,255}">
+		<texture path="./img_png/terre.png" val_rot="7"></texture>
+	</sphere>
+	<sphere ori="{3000,2000,0}" rad="8" col="{255,255,255}">
+		<texture path="./img_png/lune.png"></texture>
+	</sphere>
+	<sphere ori="{2000,2000,0}" rad="9" col="{255,255,255}">
+		<texture path="./img_png/mercure.png"></texture>
+	</sphere>
+	<sphere ori="{2500,2000,0}" rad="27" col="{255,255,255}">
+		<texture path="./img_png/venus.png"></texture>
+	</sphere>
+	<sphere ori="{3500,2000,0}" rad="18" col="{255,255,255}">
+		<texture path="./img_png/mars.png" val_rot="7"></texture>
+	</sphere>
+	<sphere ori="{9000,2000,0}" rad="300" col="{255,255,255}">
+		<texture path="./img_png/jupiter.png"></texture>
+	</sphere>
+	<sphere ori="{0,2000,0}" rad="21000" col="{0,255,0}">
+		<texture path="./img_png/cosmos.png"></texture>
+	</sphere>
+</scene>

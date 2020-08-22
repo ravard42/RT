@@ -1,0 +1,20 @@
+<scene ambiante="0.3">
+	<cam ori="{30,0,30}" axe="{-1,0,-1}" up="{0,1,0}"></cam>
+	<lumiere ori="{0,20,20}"></lumiere>
+	<sphere ori="{0,0,0}" rad="3" col="{255,255,255}" spec="1" refl="0.5">
+		<texture path="./img_png/terre.png" val_rot="7"></texture>
+		<motion_blur a="{0,0,0}" b="{2,0,0}"></motion_blur>
+	</sphere>
+	<sphere ori="{10,0,0}" rad="1" col="{255,0,0}"></sphere>
+	<sphere ori="{0,10,0}" rad="1" col="{0,255,0}"></sphere>
+	<sphere ori="{0,0,10}" rad="1" col="{0,0,255}"></sphere>
+	<plan ori="{0,0,-20}" axe="{0,0,1}" col="{255,0,255}">
+		<texture path="./img_png/redbrick.png"  ori="{20,20,-20}" texel_dim="1" rep_x="1" rep_y="1"></texture>
+	</plan>
+	<cylindre ori="{-20,0,20}" rad="7">
+		<texture path="./img_png/greystone.png"  texel_dim="0.05"></texture>
+	</cylindre>
+	<cone ori="{20,0,20}" rad="3">
+		<texture path="./img_png/bluestone.png" rep_x ="4"></texture>
+	</cone>
+</scene>

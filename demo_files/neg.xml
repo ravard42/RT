@@ -1,0 +1,51 @@
+<scene ambiante="0.15">
+	<cam ori="{0,0,-40}" axe="{0,0,1}" up="{0,1,0}"></cam>
+	<lumiere ori="{1,1,-20}"></lumiere>
+	<sphere dam="1" ori="{0,-5,0}" spec="1" rad="5" col="{205,80,80}">
+		<neg>
+			<cone ori="{0,0,-2}" rad="86"></cone>
+			<cone axe="{1,1,0}" ori="{2,0,-4.5}" rad="18"></cone>
+			<cone axe="{-1,1,0}" ori="{2,0,-4.5}" rad="18"></cone>
+			<cone axe="{1,1,0}" ori="{-2,0,-4.5}" rad="18"></cone>
+			<cone axe="{-1,1,0}" ori="{-2,0,-4.5}" rad="18"></cone>
+			<sphere rad="0.2" ori="{0,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{0.5,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{-0.5,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{1,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{-1,0,-5}"></sphere>
+		</neg>
+	</sphere>
+	<sphere dam="1" ori="{0,5,0}" spec="1" rad="5" col="{205,80,80}">
+		<neg>
+			<cone ori="{0,0,-2}" rad="86"></cone>
+			<cone axe="{1,1,0}" ori="{2,0,-4.5}" rad="18"></cone>
+			<cone axe="{-1,1,0}" ori="{2,0,-4.5}" rad="18"></cone>
+			<cone axe="{1,1,0}" ori="{-2,0,-4.5}" rad="18"></cone>
+			<cone axe="{-1,1,0}" ori="{-2,0,-4.5}" rad="18"></cone>
+			<sphere rad="0.2" ori="{0,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{0.5,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{-0.5,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{1,0,-5}"></sphere>
+			<sphere rad="0.2" ori="{-1,0,-5}"></sphere>
+		</neg>
+	</sphere>
+	<cylindre rad="2" spec="1" col="{80,80,205}">
+		<neg>
+			<cone axe="{1,1,0}" ori="{0,2,-2}" rad="5"></cone>
+			<cone axe="{1,1,0}" ori="{0,0,-2}" rad="5"></cone>
+			<cone axe="{1,1,0}" ori="{0,-2,-2}" rad="5"></cone>
+			<cone axe="{1,1,0}" ori="{0,-6,-2}" rad="5"></cone>
+			<cone axe="{1,1,0}" ori="{0,6,-2}" rad="5"></cone>
+			<cone axe="{1,1,0}" ori="{0,4,-2}" rad="5"></cone>
+			<cone axe="{1,1,0}" ori="{0,-4,-2}" rad="5"></cone>
+
+			<cone axe="{-1,1,0}" ori="{0,2,-2}" rad="5"></cone>
+			<cone axe="{-1,1,0}" ori="{0,0,-2}" rad="5"></cone>
+			<cone axe="{-1,1,0}" ori="{0,-2,-2}" rad="5"></cone>
+			<cone axe="{-1,1,0}" ori="{0,-6,-2}" rad="5"></cone>
+			<cone axe="{-1,1,0}" ori="{0,6,-2}" rad="5"></cone>
+			<cone axe="{-1,1,0}" ori="{0,4,-2}" rad="5"></cone>
+			<cone axe="{-1,1,0}" ori="{0,-4,-2}" rad="5"></cone>
+		</neg>
+	</cylindre>
+</scene>

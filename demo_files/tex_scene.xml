@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<scene ambiante="0.6">
+	<cam ori="{-500,-500,2000}" axe="{1,1,0}" up="{0,0,1}"></cam>
+	<plan ori="{0,0,0}" axe="{0,0,1}" col="{0,204,153}">
+		<texture path="./img_png/wood.png" ori="{0,0,0}" Vx="{1,0,0}" texel_dim="20"></texture>
+	</plan>
+	<plan ori="{0,0,4000}" axe="{0,0,1}" col="{255,0,204}">
+		<texture path="./img_png/greystone.png" ori="{0,0,4000}" Vx="{1,0,0}" texel_dim="20"></texture>
+	</plan>
+	<plan ori="{2000,0,0}" axe="{-1,0,0}" col="{255,51,0}">
+		<texture path="./img_png/redbrick.png" ori="{2000,2000,4000}" Vx="{0,1,0}" texel_dim="5"></texture>
+	</plan>
+	<plan ori="{-2000,0,0}" axe="{1,0,0}" col="{255,51,0}">
+		<texture path="./img_png/redbrick.png" ori="{-2000,-2000,4000}" Vx="{0,-1,0}" texel_dim="5"></texture>
+	</plan>
+	<plan ori="{0,2000,0}" axe="{0,-1,0}" col="{0,0,0}">
+		<texture path="./img_png/redbrick.png" ori="{2000,2000,4000}" Vx="{-1,0,0}" texel_dim="5"></texture>
+	</plan>
+	<plan ori="{0,-2000,0}" axe="{0,1,0}" col="{0,0,0}">
+		<texture path="./img_png/redbrick.png" ori="{2000,2000,4000}" Vx="{1,0,0}" texel_dim="5"></texture>
+	</plan>
+</scene>

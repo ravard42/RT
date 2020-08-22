@@ -1,0 +1,11 @@
+<scene ambiante="0.15" filter="sepia">
+	<cam ori="{0,1,-23}" axe="{0,0,1}" up="{0,1,0}"></cam>
+	<lumiere ori="{5,5,-30}"></lumiere>
+	<lumiere ori="{-7,5,-30}"></lumiere>
+	<sphere ori="{-2.5,-1,-10}" rad="0.7" col="{250,50,50}" spec="20"></sphere>
+	<sphere ori="{2.5,-1,-10}" rad="0.7" col="{50,250,50}" spec="20"></sphere>
+	<plan ori="{0,-2,0}"></plan>
+	<plan ori="{0,0.3,0}" axe="{0,0,-1}" col="{50,50,250}"></plan>
+	<cylindre ori="{-1,-1,-8}" rad="0.5" col="{250,0,250}" axe="{1,1,0}" spec="20"></cylindre>
+	<cone ori="{1.1,-1,-8}" rad="4" col="{250,250,0}" axe="{-1,1,0}" spec="20"></cone>
+</scene>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<scene ambiante="0.15">
+	<cam ori="{0,0,-50}" axe="{0,0,1}" up="{0,1,0}"></cam>
+	<lumiere ori="{0,0,20}"></lumiere>
+	<plan ori="{0,0,70}" axe="{0,0,-1}" col="{250,250,50}" refl="0.6">
+	</plan>
+	<plan ori="{0,10,0}" axe="{0.001,-1,0}" col="{250,50,250}" refl="0.6">
+	</plan>
+	<plan ori="{0,-10,0}" axe="{0,1,0}" col="{50,250,60}" refl="0.6">
+	</plan>
+	<plan ori="{10,5,0}" axe="{-1,0,0}" col="{50,50,120}" refl="0.6">
+	</plan>
+	<plan ori="{-10,5,0}" axe="{1,0,0}" col="{150,150,70}" refl="0.6">
+	</plan>
+	<sphere ori="{0,0,30}" rad="3" axe="{0,1,0}" col="{200,100,100}" spec="1" limx="{-1, 0, 0}" limy="{-1, 0, 0}" limz="{-1, 0, 0}" refl="0.6">
+	</sphere>
+	<cylindre ori="{0,0,30}" rad="1.5" axe="{-1.5,1,1}" col="{200,200,200}" spec="1" refl="0.6">
+	</cylindre>
+	<cone ori="{-4,0,30}" rad="7" col="{50,50,180}" spec="1" refl="0.6">
+	</cone>
+</scene>

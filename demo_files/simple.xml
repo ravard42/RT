@@ -1,0 +1,14 @@
+<scene ambiante="0.15">
+	<cam ori="{-7,8,-30}" axe="{0.3,-0.3,1}" up="{0,1,0}"></cam>
+	<lumiere ori="{3,12,-20}"></lumiere>
+	<sphere></sphere>
+	<cube ori="{4,0,-1}" rad="2">
+	</cube>
+	<plan ori="{0,-1,0}"></plan>
+	<cylindre ori="{-4,0,-1}" axe="{0.4,0,1}">
+		<lim limy="{1.5,3,2}"></lim>
+	</cylindre>
+	<cone ori="{7,-1,-5}" axe="{1,1,1}" rad="20">
+		<lim limy="{1.5,3,0.001}"></lim>
+	</cone>
+</scene>
